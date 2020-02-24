@@ -15,6 +15,12 @@ a:hover{
 }
 /*========================================*/
 /*=============== Carousel ===============*/
+#carousel{
+    background-image: url(images/top-background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+}
 .buy-btn{
     font-weight: bold;
     background-color: black;
@@ -23,7 +29,16 @@ a:hover{
     outline: none;
     border: none;
     border-radius: 5px;
-    z-index: 1000;
+}
+.best-product{
+    text-align: ;
+    transform: rotate(-90deg);
+    position: relative;
+    top: -190px;
+    left: 53%;
+    opacity: .1;
+    font-weight: bold;
+    margin: 0 auto;
 }
 .carousel-indicators li{
     width: 16px;

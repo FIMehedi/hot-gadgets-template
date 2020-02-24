@@ -109,9 +109,10 @@ footer h6{
     font-weight: bold;
     padding: 10px 0;
 }
-.social a i{
+a i{
     font-size: 20px;
     padding: 5px;
+    padding-left: 0;
 }
 footer p{
     text-align: center;
@@ -121,6 +122,7 @@ footer ul{
     padding-left: 0;
 }
 footer ul li{
+    padding-left: 5px;
 }
 footer a{
     color: gray;

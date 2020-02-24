@@ -3,6 +3,17 @@ a:hover{
     text-decoration: none;
 
 }
+button:hover{
+    transform: translateX(5px);
+    box-shadow: -5px 5px 10px lightgray;
+}
+.card, button{
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 30px lightgray;
+}
 /*========================================*/
 /*=============== Navbar ===============*/
 .navbar-brand img{
@@ -20,6 +31,9 @@ a:hover{
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: left;
+}
+.carousel-inner p{
+    color: gray;
 }
 .buy-btn{
     font-weight: bold;
@@ -83,8 +97,12 @@ a:hover{
 /*========================================*/
 /*=============== Footer ===============*/
 footer{
+    border-top: 4px solid #ee4d2d;
     margin-top: 100px;
     color: #707070;
+}
+footer small{
     text-align: center;
+    display: block;
 }
 /*========================================*/

@@ -14,6 +14,9 @@ button:hover{
     transform: translateY(-10px);
     box-shadow: 10px 10px 30px lightgray;
 }
+ul{
+    list-style: none;
+}
 /*========================================*/
 /*=============== Navbar ===============*/
 .navbar-brand img{
@@ -100,9 +103,29 @@ footer{
     border-top: 4px solid #ee4d2d;
     margin-top: 100px;
     color: #707070;
+    font-size: small;
 }
-footer small{
+footer h6{
+    font-weight: bold;
+    padding: 10px 0;
+}
+.social a i{
+    font-size: 20px;
+    padding: 5px;
+}
+footer p{
     text-align: center;
     display: block;
+}
+footer ul{
+    padding-left: 0;
+}
+footer ul li{
+}
+footer a{
+    color: gray;
+}
+footer .col-6{
+    padding: 0;
 }
 /*========================================*/

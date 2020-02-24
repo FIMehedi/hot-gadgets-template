@@ -31,7 +31,6 @@ a:hover{
     border-radius: 5px;
 }
 .best-product{
-    text-align: ;
     transform: rotate(-90deg);
     position: relative;
     top: -190px;
@@ -69,6 +68,16 @@ a:hover{
 #categories .card{
     width: 80%;
     /* margin: 20px; */
+}
+.categories h2::after{
+    height: 8px;
+    display: block;
+    width: 80%;
+    background-image: linear-gradient(to left, #FF9C35, #FFD019);
+    border-right: 1px white;
+    content: '';
+    margin: 10px auto;
+    border-radius: 20px;
 }
 
 /*========================================*/

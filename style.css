@@ -1,0 +1,66 @@
+/*=============== Typography ===============*/
+a:hover{
+    text-decoration: none;
+
+}
+/*========================================*/
+/*=============== Navbar ===============*/
+.navbar-brand img{
+    width: 70%;
+}
+.nav-item{
+    color: nav-item;
+    font-weight: 500;
+    font-size: 18px;
+}
+/*========================================*/
+/*=============== Carousel ===============*/
+.buy-btn{
+    font-weight: bold;
+    background-color: black;
+    padding: 8px 22px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    z-index: 1000;
+}
+.carousel-indicators li{
+    width: 16px;
+    height: 12px;
+    margin: 0 8px;
+    border-radius: 43%;
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+}
+/*========================================*/
+/*=============== Smartphone ===============*/
+.card{
+    text-align: center;
+    border: none;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.card img{
+    padding-top: 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+.card-footer{
+    border: none;
+    background-color: white;
+    padding-bottom: 30px;
+}
+/*========================================*/
+/*=============== Categories ===============*/
+#categories .card{
+    width: 80%;
+    /* margin: 20px; */
+}
+
+/*========================================*/
+/*=============== Footer ===============*/
+footer{
+    margin-top: 100px;
+    color: #707070;
+    text-align: center;
+}
+/*========================================*/
